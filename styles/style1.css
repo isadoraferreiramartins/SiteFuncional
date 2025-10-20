@@ -1,0 +1,46 @@
+.CineFlix h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+  color: #e50914;
+  text-align: center;
+}
+.imgcarrossel {
+  height: 400px;
+  /* object-fit: cover; */
+}
+body {
+  background-color: #000000;
+}
+.imgGrid1 {
+  width: 300px;
+  border-radius: 10px;
+}
+.bannerempresas {
+  width: 100%;
+}
+h5 {
+  color: #e50914;
+}
+
+.terceira {
+  display: block;
+  
+}
+.imgGrid2 {
+  width: 610px;
+  /* border-radius: 10px; */
+}
+.quinta {
+  width: 140px;
+  height: auto;
+}
+p, h3{
+    color:aliceblue
+}
+.vermelho {
+    color:#e50914
+}
