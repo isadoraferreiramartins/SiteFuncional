@@ -19,3 +19,9 @@ label{
 h5 {
   color: #e50914;
 }
+.containerContato{
+   max-width: 1200px;
+   max-height: 500px;
+    margin: 0 auto;
+   
+}
