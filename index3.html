@@ -3,81 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos</title>
+     <link rel="shortcut icon" href="favicon/ChatGPT Image 20 de out. de 2025, 16_14_48.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style3.css">
+    <title>CineFlix</title>
 </head>
 <body>
-    <h1>Todos os Filmes - CineFlix</h1>
+   <div class="CineFlix">
+      <h1>CINEFLIX</h1>
+          <!-- NAV -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme= "dark">
+  <div class="container-fluid">
+    <a class="navbar-brand vermelho" href="#">CineFlix</a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Quem Somos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Filmes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index3.html">Todos</a></li>
+            <li><a class="dropdown-item" href="index4.html">Lançamentos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index5.html">Em Cartaz</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="index6.html">Contato</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search"/>
+        <button type="button" class="btn btn-outline-danger">Pesquisar</button>
+
+      </form>
+    </div>
+  </div>
+</nav>
+    </div>
+<!-- MENSAGEM EDITORIAL -->
+    <h1 class = "MsgT">TODOS OS FILMES:</h1>
     <p>Explore nossa coleção completa de filmes no CineFlix! Aqui você encontrará uma variedade de gêneros, desde ação e aventura até comédia, drama, terror e muito mais. Nossa plataforma oferece títulos para todos os gostos, garantindo que você sempre encontre algo interessante para assistir.</p>
     <p>Navegue por nossa extensa biblioteca e descubra clássicos atemporais, filmes independentes aclamados pela crítica e os lançamentos mais recentes do cinema mundial. Com atualizações regulares, nossa seleção está sempre crescendo, proporcionando novas opções de entretenimento para você.</p>
     <p>Além disso, o CineFlix oferece recomendações personalizadas com base em suas preferências de visualização, facilitando a descoberta de novos favoritos. Aproveite a conveniência de assistir aos seus filmes preferidos a qualquer hora e em qualquer lugar, com qualidade de streaming excepcional.</p>
     <p>Prepare a pipoca e mergulhe no mundo do cinema com o CineFlix – seu destino definitivo para todos os filmes!</p>
 
-
     <!-- CARD PRODUTO 1-->
- <div class = "container d-flex mt-3 mb-3 gap-3 justify-content-center" >
- <div class="card" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img  src="IMG4/photo-1760301269447-fbc82b5a8d14.avif" class="img-fluid rounded-start" alt="...">
+ <div class="card-group card text-bg-dark mb-3" >
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Uma "cidade perdida" pode ser um assentamento urbano que caiu em declínio e foi abandonado, como a antiga Teyuna na Colômbia, ou uma cidade fictícia, como no filme "Cidade Perdida" (2022), onde uma autora é levada em uma aventura na selva. O termo também pode se referir a descobertas arqueológicas recentes, como as estruturas antigas encontradas na Amazônia boliviana. </p>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
+   
+  </div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Uma "cidade perdida" pode ser um assentamento urbano que caiu em declínio e foi abandonado, como a antiga Teyuna na Colômbia, ou uma cidade fictícia, como no filme "Cidade Perdida" (2022), onde uma autora é levada em uma aventura na selva. O termo também pode se referir a descobertas arqueológicas recentes, como as estruturas antigas encontradas na Amazônia boliviana. </p>
     </div>
+   
+  </div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">A Fantástica Fábrica de Chocolate" é uma história sobre o excêntrico fabricante de chocolates Willy Wonka, que realiza um concurso mundial para escolher um herdeiro para seu império de doces. Cinco crianças sortudas, incluindo o pobre e bom coração Charlie Bucket, encontram "Convites Dourados" em barras de chocolate e ganham uma visita à misteriosa fábrica. A descrição foca na magia da fábrica, nas peculiaridades de Wonka e na jornada de Charlie. </p>
+    </div>
+    
   </div>
 </div>
+
 <!-- CARD PRODUTO 2-->
- <div class="card" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img   src="IMG4/photo-1756191632265-9be5c485cb69.avif" class="img-fluid rounded-start" alt="...">
+ <div class="card-group card text-bg-dark mb-3">
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Sua Culpa é a continuação do filme de romance espanhol "Minha Culpa", baseado na trilogia "Culpables" de Mercedes Ron. O filme acompanha a história de Noah e Nick, que agora enfrentam novos desafios após a separação devido ao trabalho e à faculdade. O relacionamento deles é ameaçado pelo retorno de uma ex-namorada vingativa e da mãe de Nick, que traz consigo intenções obscuras, abalando não só o casal, mas toda a família Leister. </p>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+    
   </div>
-</div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme5.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">O rosário é uma devoção católica que consiste na oração de "Ave-Maria" e "Pai-Nosso" enquanto se medita sobre a vida de Jesus Cristo e Maria, conhecida como os "Mistérios". A palavra "rosário" significa "coroa de rosas" e é representado por um cordão com contas que ajuda os fiéis a contar as orações, que atualmente são 200 "Ave-Marias" divididas em terços, além do "Pai-Nosso". </p>
+    </div>
+    
+  </div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/filme6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Velozes & Furiosos 10 é o início da fase final da saga e foca no confronto entre Dom Toretto (Vin Diesel) e Dante Reyes (Jason Momoa), filho vingativo do traficante Hernan Reyes, que busca destruir a família de Dom como vingança pelos eventos de "Velozes & Furiosos 5". O filme é marcado por cenas de ação exageradas, um vilão carismático e a continuação do tema de família central para a franquia. </p>
+    </div>
+    
+  </div>
 </div>
 
 <!-- CARD PRODUTO 3-->
- <div class = "container d-flex mt-3 mb-3 gap-3 justify-content-center" >
- <div class="card" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img  src="IMG4/photo-1760301269447-fbc82b5a8d14.avif" class="img-fluid rounded-start" alt="...">
+ 
+<div class="card-group card text-bg-dark mb-3">
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/FILME7.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">"Forja" pode se referir ao processo de moldar metais através do calor e da martelada, a oficina onde isso acontece, o forno utilizado, ou ao filme cristão de 2024 sobre um jovem que busca um propósito de vida. Em ambos os sentidos (literal e figurado), a palavra está ligada à ideia de transformação e formação. </p>
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
+    
+  </div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/FILME8.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Homem-Aranha: Longe de Casa é o segundo filme solo do herói no Universo Cinematográfico da Marvel (MCU), após os eventos de Vingadores: Ultimato. O filme se passa oito meses depois da derrota de Thanos e aborda as consequências do sacrifício de Tony Stark (Homem de Ferro). </p>
     </div>
+    
+  </div>
+  <div class="card card text-bg-dark mb-3">
+    <img src="img/FILME9.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"></h5>
+      <p class="card-text">Thor é uma figura proeminente da mitologia nórdica, conhecido como o deus do trovão, das tempestades, da força e da proteção. Ele é filho de Odin, possui grande força sobre-humana e está frequentemente associado a seu martelo encantado, Mjölnir. Além de seu papel como um poderoso guerreiro que combate gigantes e monstros, Thor também é considerado o deus dos povos livres e da agricultura. </p>
+    </div>
+    
   </div>
 </div>
 
-<!-- CARD PRODUTO 4-->
- <div class="card" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img   src="IMG4/photo-1756191632265-9be5c485cb69.avif" class="img-fluid rounded-start" alt="...">
+
+<!-- FOOTER -->
+ <footer class="container">
+ <div class="row">
+    <div class="col">
+     <h5 >MEUS PEDIDOS</h5>
+     <ul  class="list-unstyled">
+        <li><a class="link-secondary" href="">Acompanhe seus pedidos</a></li>
+        <li><a class="link-secondary" href="">Editar cadastro</a></li>
+          <h5>MARKETPLACE</h5>
+        <li><a class="link-secondary" href="">Cadastro</a></li>
+        <li><a class="link-secondary" href="">Venda seus produtos</a></li>
+        <li><a class="link-secondary" href="">Serviços</a></li>
+         </ul>
+ </div>
+   
+    <div class="col">
+         <h5 >CINEFLIX</h5>
+     <ul  class="list-unstyled">
+        <li><a class="link-secondary" href="">Quem somos</a></li>
+        <li><a class="link-secondary" href="">Blog CineFlix</a></li>
+        <li><a class="link-secondary" href="">Black Friday</a></li>
+        
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
+    <div class="col">
+         <h5 >AJUDA</h5>
+     <ul  class="list-unstyled">
+        <li><a class="link-secondary" href="">Mapa do Site</a></li>
+        <li><a class="link-secondary" href="">Atendimento em libras</a></li>
+        <li><a class="link-secondary" href="">Portal de Privacidade</a></li>
+        <li><a class="link-secondary" href="">Política de Privacidade</a></li>
+        <li><a class="link-secondary" href="">Termos e Condições de Uso</a></li>
+        <li><a class="link-secondary" href="">Segurança Digital</a></li>
     </div>
-  </div>
-</div>
-</div>
+
+    <div class="col">
+         <h5 >Redes Sociais</h5>
+        <ul class = "list-unstyled terceira d-flex ">
+          <li><a href=""><img src="favicon/icons8-instagram-64.png" alt=""></a></li>
+          <li><a href=""><img src="favicon/icons8-tiktok-64.png" alt=""></a></li>
+          <li><a href=""><img src="favicon/icons8-reproduzir-youtube-64.png"></a></li>
+        </ul>
+
+    </div>
+ </div>
+  <p>&copy; 2025 - CineFlix</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+    
 </html>

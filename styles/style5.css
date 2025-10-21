@@ -1,0 +1,27 @@
+.CineFlix h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+h1 {
+  color: #e50914;
+  text-align: center;
+}
+.vermelho {
+    color:#e50914
+}
+body {
+  background-color: #000000;
+}
+.imgcarrossel {
+  height: 600px;
+  width: 800px;
+  /* object-fit: cover; */
+}
+.CineFlix2 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #e50914;
+    text-align: center;
+}

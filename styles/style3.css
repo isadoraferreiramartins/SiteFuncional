@@ -1,0 +1,28 @@
+.CineFlix h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+h1 {
+  color: #e50914;
+  text-align: center;
+}
+body {
+  background-color: #000000;
+}
+.vermelho {
+    color:#e50914
+}
+p {
+    color:aliceblue;
+    text-align: center;
+    gap: 20px;
+}
+.MsgT {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #e50914;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
